@@ -1,0 +1,50 @@
+#test{
+    color: black;
+    font-style:normal;
+    border-style:groove;
+    border-color: black;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to right, skyblue,white);
+}
+.main{
+    clear:both;
+    background-color: aliceblue;
+    color:brown;
+    font-family: "press start 2P","consolas","sans-serif";
+    font-style: bold;
+    font-weight: 500;
+    text-decoration: cyan dotted;
+    font-size: medium;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: gold;
+    border-width: 5px;
+    padding: 10px;
+    background: linear-gradient(to left,skyblue,white);
+
+}
+body{
+    background-image: url(clouds.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box{
+    float: left;
+}
+#box4{
+    position: fixed;
+    top: 350px;
+    left: 60%;
+}
+button:hover{
+    background-color: lightgray;
+}
+button:active{
+    color: white;
+    background-color: black;
+}
+.test{
+    cursor: pointer;
+}
